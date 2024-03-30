@@ -29,6 +29,10 @@ export default function Card() {
       N/A
     </a>
   </li>
+  <h2 style={{marginBottom: '7px'}}>Tech Stack</h2>
+  <li style={{marginBottom: '20px', marginLeft: '10px', listStyleType: 'disc'}}>MognoDB and SQL</li>
+<li style={{marginBottom: '20px', marginLeft: '10px', listStyleType: 'disc'}}>Javascript</li>
+<li style={{marginBottom: '20px', marginLeft: '10px', listStyleType: 'disc'}}>React</li>
 </ul>
 </div>
 
