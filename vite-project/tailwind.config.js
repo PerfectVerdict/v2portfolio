@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  purge: [
+
+export default {
+  content: [
     './src/**/*.html',
     './src/**/*.js',
     './src/**/*.jsx',
@@ -10,3 +11,4 @@ module.exports = {
   },
   plugins: [ require('daisyui')], 
 }
+

@@ -2,3 +2,45 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+/* .divider {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    text-decoration: underline;
+    font-weight: bold;
+} */
+
+  body {
+    font-family: 'Rubik', sans-serif;
+  }
+
+  .projects {
+    display: flex;
+    justify-content: center;
+    border: 2px solid #2563EB;
+    border-radius: 16px;
+    width: fit-content;
+    margin-left: 5px;
+    
+    background-color: #2563EB;
+  }
+
+  .projects h2 {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  .avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+  }
+
+
+
+  .parentDiv {
+    display: flex;
+  }
