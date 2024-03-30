@@ -12,7 +12,7 @@ export default function Card() {
     </a>
   </li>
   <li>
-    <a>
+    <a href="https://spellbindertcg-a6e0edcf3480.herokuapp.com/">
      
       Magic the Gathering
     </a>
