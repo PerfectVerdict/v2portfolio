@@ -2,19 +2,19 @@ import React from 'react';
 import './App.css'
 
 
-import MainCard from "./components/MainCard"
-import Projects from "./components/Skills"
+import Name from "./components/Name"
+import AboutMe from "./components/AboutMe"
 import Card from "./components/Card"
+
+
 
 
 function App() {
   return (
     <>
-
-      <MainCard />
-      <Card />
-      <Projects />
-    </>
+   {/* <Card /> */}
+   <Name />
+   </>
   );
 }
 

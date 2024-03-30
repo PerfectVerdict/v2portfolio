@@ -2,13 +2,13 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-/* .divider {
+.divider {
     display: flex;
     align-items: center;
     height: 100vh;
     text-decoration: underline;
     font-weight: bold;
-} */
+}
 
   body {
     font-family: 'Rubik', sans-serif;
@@ -17,12 +17,13 @@
   .projects {
     display: flex;
     justify-content: center;
-    border: 2px solid #2563EB;
+   
     border-radius: 16px;
     width: fit-content;
     margin-left: 5px;
     
-    background-color: #2563EB;
+   
+    border-radius: 0px;
   }
 
   .projects h2 {
@@ -31,16 +32,28 @@
     text-decoration: underline;
   }
 
-  .avatar {
+
+  .card {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-
+    flex-direction: row;
   }
+  
 
+.workandabout {
+  display: flex;
+  gap: 20px;
+  max-width: 500px;
+}
+  
+.glass {
+  color:black;
+  margin-left: 5px;
+  padding: 15px;
+}
 
+.about-me-container {
+  display: flex;
+  text-align: left;
+ 
+}
 
-  .parentDiv {
-    display: flex;
-  }
