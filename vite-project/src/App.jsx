@@ -1,20 +1,17 @@
-import React from 'react';
-import './App.css'
-
-
-import Name from "./components/Name"
-import AboutMe from "./components/AboutMe"
-import Card from "./components/Card"
-
-
-
+// Bringing in the required import from 'react-router-dom'
+import { Outlet } from 'react-router-dom';
+import Nav from './components/NavTabs';
 
 function App() {
+  // The Outlet component will conditionally swap between the different pages according to the URL
   return (
     <>
-   {/* <Card /> */}
-   <Name />
-   </>
+      <Nav />
+      <span className="badge">Badge</span>
+      <main className="mx-3">
+        <Outlet />
+      </main>
+    </>
   );
 }
 
