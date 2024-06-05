@@ -1,14 +1,17 @@
 import NPC from '../assets/npc1.jpg'
+import sb from '../assets/sb.png'
 export default function Projects() {
   return (
-    <>
-    <h1>Projects</h1>
-    <div class="list-group" style={{width: '33.333%', marginTop: '20px'}}>
+      <>
+        <div className="card" style={{width: "18rem"}}>
+          <img src={sb} className="card-img-top" alt="..."/>
+          <div className="card-body">
+            <h5 className="card-title">Spellbinder</h5>
+            <p className="card-text">Track your Magic the Gathering collection!</p>
+            <a href="https://spellbindertcg-a6e0edcf3480.herokuapp.com/" className="btn btn-primary">Spellbinder</a>
+          </div>
+        </div>
 
-  <a href="#" class="list-group-item list-group-item-action"><span style={{fontWeight: "bold"}}>Eqity I</span> View Stock Information.</a>
-  <a href="#" class="list-group-item list-group-item-action"><span style={{fontWeight: "bold"}}>Spellbinder</span> Manange Your Magic The Gathering Cards.</a>
-  <a href="#" class="list-group-item list-group-item-action"><span style={{fontWeight: "bold"}}>T-Shirt Hall</span> Purchase T-shirts.</a>
-</div>
-</>
+      </>
   );
 }
