@@ -13,6 +13,7 @@ export default function About() {
           padding: "1em", // Adds padding for better spacing
           boxSizing: "border-box", // Prevents overflow from padding
         }}
+
       >
         <img
           src={npc}

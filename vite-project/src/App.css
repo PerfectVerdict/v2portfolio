@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind untilities;
+
+html {
+    @apply bg-black text-white;
+}

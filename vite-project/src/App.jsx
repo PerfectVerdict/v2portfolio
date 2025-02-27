@@ -7,8 +7,8 @@ function App() {
   return (
     <>
       <Nav />
-      <span className="badge">Badge</span>
       <main className="mx-3">
+
         <Outlet />
       </main>
     </>
