@@ -2,8 +2,11 @@ import npc from '../assets/npc1.jpg'
 export default function About() {
   return (
     <>
+      <div style={{ display: "flex", justifyContent: "center", marginTop: "25px" }}>
 
+        <br />
 
+      </div>
       <div
         className='overflow-x-hidden'
         style={{
@@ -27,13 +30,13 @@ export default function About() {
             // padding: ".5em", // Add padding inside the card
             boxSizing: "border-box", // Prevent overflow from padding
           }}
-        >
+        > <h1 style={{ textAlign: "center" }}>Hello, I am Ethan. A Full Stack Web Developer.</h1>
           <div className="card-body" >
             <ul className="list-group bg-black text-white" style={{ textAlign: "center" }}>
-              <p>Hello there! Thank you for taking the time to checkout my web development portfolio! <br />
-                I am just a beginner, so these apps are not spectacular, but I needed a place to hold all my projects, so here we are! <br />
-              </p>
-              <h3>Tech Stack</h3>
+              <br />Thank you for taking the time to checkout my web development portfolio! <br />
+              I am just a beginner, so these apps are not spectacular, but I needed a place to hold all my projects, so here we are! <br />
+
+              <h3 style={{ marginTop: "23px" }}>Tech Stack</h3>
               <li className="list-group-item bg-black text-white">
                 Typescript/VanillaJS
               </li>
@@ -94,7 +97,7 @@ export default function About() {
             </ul>
           </div>
         </div>
-      </div>
+      </div >
     </>
   );
 }

@@ -7,9 +7,11 @@ function NavTabs() {
 
   return (
     <>
-      <div style={{ display: "flex", justifyContent: "center" }}>
+      <div style={{
+        display: "flex", justifyContent: "center", gap: "20px"
+      }}>
         <ul className="nav nav-tabs">
-          <h3 style={{ marginLeft: "20px", marginRight: "20px", marginTop: "4px" }}>Ethan Metz </h3>
+
           <li className="nav-item">
             <Link
               to="/Projects"
@@ -42,6 +44,7 @@ function NavTabs() {
               <span className="badge text-bg-warning">Contact</span>
             </Link>
           </li>
+
         </ul >
       </div>
 
