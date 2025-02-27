@@ -5,7 +5,7 @@ import kyreproject from '../assets/converted_image.png'
 export default function Projects() {
   return (
     <>
-      <div style={{ display: "flex", justifyContent: "center", flexDirection: "column", gap: "20px", marginTop: "20px" }} >
+      <div style={{ display: " flex", justifyContent: "center", flexDirection: "column", gap: "20px", marginTop: "20px", maxWidth: "640px" }} >
         <div className="card bg-black text-white ">
           <img src={sb} className="card-img-top" alt="..." />
           <div className="card-body">
@@ -38,7 +38,7 @@ export default function Projects() {
           </div>
         </div>
 
-      </div>
+      </div >
     </>
   );
 }
