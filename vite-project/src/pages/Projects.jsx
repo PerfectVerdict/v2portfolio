@@ -6,7 +6,7 @@ export default function Projects() {
   return (
     <>
       <div style={{ display: "flex", justifyContent: "center", flexDirection: "column", gap: "20px", marginTop: "20px" }} >
-        <div className="card bg-black text-white " style={{ width: "18rem" }}>
+        <div className="card bg-black text-white ">
           <img src={sb} className="card-img-top" alt="..." />
           <div className="card-body">
             <h5 className="card-title">Spellbinder</h5>
@@ -19,7 +19,7 @@ export default function Projects() {
           </div >
         </div >
 
-        <div className="card bg-black text-white" style={{ width: "18rem" }}>
+        <div className="card bg-black text-white">
           <img src={itIsWritten} className="card-img-top" alt="..." />
           <div className="card-body">
             <h5 className="card-title">It is written</h5>
@@ -29,7 +29,7 @@ export default function Projects() {
         </div>
 
 
-        <div className="card bg-black text-white" style={{ width: "18rem" }}>
+        <div className="card bg-black text-white" >
           <img src={kyreproject} className="card-img-top" alt="..." />
           <div className="card-body">
             <h5 className="card-title">Chef Portfolio</h5>
