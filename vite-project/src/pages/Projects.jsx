@@ -12,7 +12,7 @@ export default function Projects() {
           <div className="card-body">
             <h5 className="card-title">Spellbinder</h5>
             <p className="card-text">
-              Track your Magic the Gathering Card collection! Complet with..<br />
+              Track your Magic the Gathering Card collection! Complete with..<br />
               ss
               Account creation ✅ <br />
               Full up to date search functionality ✅ <br />
