@@ -1,4 +1,5 @@
 import npc from '../assets/npc1.jpg'
+
 export default function About() {
   return (
     <>
@@ -30,7 +31,7 @@ export default function About() {
             // padding: ".5em", // Add padding inside the card
             boxSizing: "border-box", // Prevent overflow from padding
           }}
-        > <h1 style={{ textAlign: "center" }}>Hello, I am Ethan.<br /><span className='webdev drop-shadow-[0px_0px_101px_rgba(0,255,42,1)]'>A Full Stack Web Developer.</span></h1>
+        > <h1 style={{ textAlign: "center" }}>Hello, I am Ethan.<br />A full stack <span className='webdev text-gradient'>web weveloper.</span></h1>
           <div className="card-body" >
             <ul className="list-group bg-black text-white" style={{ textAlign: "center" }}>
               <br />Thank you for taking the time to view my web development portfolio. <br />
@@ -101,5 +102,6 @@ export default function About() {
     </>
   );
 }
+
 
 
