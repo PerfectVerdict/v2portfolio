@@ -5,8 +5,9 @@ import kyreproject from '../assets/converted_image.png'
 export default function Projects() {
   return (
     <>
-      <div style={{ display: " flex", justifyContent: "center", flexDirection: "column", gap: "20px", marginTop: "20px", maxWidth: "640px" }} >
-        <div className="card bg-black text-white ">
+      <div className="containerForProjects justify-center gap-6 mt-8" style={{ maxWidth: "100%", display: "flex", flexDirection: "column", justifyContent: "center", alignItms: "center" }}>
+        {/* <div className="flex justify-center gap-3 project-wrapper border border-white"> */}
+        <div className="flex gap-3 card bg-black text-white border">
           <img src={sb} className="card-img-top" alt="..." />
           <div className="card-body">
             <h5 className="card-title">Spellbinder</h5>
@@ -19,7 +20,7 @@ export default function Projects() {
           </div >
         </div >
 
-        <div className="card bg-black text-white">
+        <div className="card bg-black text-white border">
           <img src={itIsWritten} className="card-img-top" alt="..." />
           <div className="card-body">
             <h5 className="card-title">It is written</h5>
@@ -29,7 +30,7 @@ export default function Projects() {
         </div>
 
 
-        <div className="card bg-black text-white" >
+        <div className="card bg-black text-white border" >
           <img src={kyreproject} className="card-img-top" alt="..." />
           <div className="card-body">
             <h5 className="card-title">Chef Portfolio</h5>
@@ -39,6 +40,7 @@ export default function Projects() {
         </div>
 
       </div >
+      {/* </div > */}
     </>
   );
 }
