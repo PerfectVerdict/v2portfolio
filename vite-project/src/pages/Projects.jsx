@@ -83,7 +83,7 @@ export default function Projects() {
 
               Account creation ✅ <br />
               Full up to date search functionality ✅ <br />
-              eg. "frog"</p>
+              search eg. "frog"</p>
             <a href="https://spellbindertcg-a6e0edcf3480.herokuapp.com/" className="btn btn-primary">Spellbinder</a>
           </div >
         </div >
