@@ -30,11 +30,11 @@ export default function About() {
             // padding: ".5em", // Add padding inside the card
             boxSizing: "border-box", // Prevent overflow from padding
           }}
-        > <h1 style={{ textAlign: "center" }}>Hello, I am Ethan. A Full Stack Web Developer.</h1>
+        > <h1 style={{ textAlign: "center" }}>Hello, I am Ethan.<br /><span className='webdev drop-shadow-[0px_0px_101px_rgba(0,255,42,1)]'>A Full Stack Web Developer.</span></h1>
           <div className="card-body" >
             <ul className="list-group bg-black text-white" style={{ textAlign: "center" }}>
-              <br />Thank you for taking the time to checkout my web development portfolio! <br />
-              I am just a beginner, so these apps are not spectacular, but I needed a place to hold all my projects, so here we are! <br />
+              <br />Thank you for taking the time to view my web development portfolio. <br />
+              I am just a beginner, so these apps are not spectacular, but I needed a place to hold all my projects, so here we are.<br />
 
               <h3 style={{ marginTop: "23px" }}>Tech Stack</h3>
               <li className="list-group-item bg-black text-white">

@@ -13,9 +13,12 @@ export default function Projects() {
             <h5 className="card-title">Spellbinder</h5>
             <p className="card-text">
               Track your Magic the Gathering Card collection! Complet with..<br />
-
+              ss
               Account creation ✅ <br />
-              Search the latest Magic the Gatering cards ✅ </p>
+              Full up to date search functionality ✅ <br />
+              eg. "frog"</p>
+
+
             <a href="https://spellbindertcg-a6e0edcf3480.herokuapp.com/" className="btn btn-primary">Spellbinder</a>
           </div >
         </div >
