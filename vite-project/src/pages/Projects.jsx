@@ -3,6 +3,7 @@ import itIsWritten from '../assets/image.png'
 import sb from '../assets/sb.png'
 import workday from '../assets/workdaypng.PNG'
 import kyreproject from '../assets/converted_image.png'
+import cbs from '../assets/cbs.PNG'
 export default function Projects() {
   return (
     <>
@@ -67,7 +68,7 @@ export default function Projects() {
           <div className="card-body">
             <h1 className="card-title">Chef Portfolio</h1>
             <p className="card-text">Muli-page freeance site for a professional chef with some awesome animations!</p>
-            <a href="https://cookingkyre.onrender.com/" className="btn btn-primary">Portfolio</a>
+            <a href="https://cookingkyre.onrender.com/" className="btn btn-primary">Chef Portfolio</a>
           </div>
         </div>
 
@@ -101,6 +102,20 @@ export default function Projects() {
 " className="btn btn-primary">Workday Scheduler</a>
           </div>
         </div>
+
+
+        <div className="flex gap-3 card bg-black text-white border">
+          <img src={cbs} className="card-img-top" alt="..." />
+          <div className="card-body">
+            <h1 className="card-title">Clear blues skies</h1>
+            <p className="card-text">
+              Check the wind, humidity, and temperature for your area. The weather data is available for 10 AM and 1 PM only, as this project was built as a learning exercise in vanilla JavaScript. <br />
+              540 lines of vanilla js ✅ <br />
+              Accurate wheather data ✅ <br />
+            </p>
+            <a href="https://clearblueskies.onrender.com/" className="btn btn-primary">Clear Blue Skies</a>
+          </div >
+        </div >
 
       </div >
       {/* </div > */}
