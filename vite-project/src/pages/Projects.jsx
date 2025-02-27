@@ -9,27 +9,39 @@ export default function Projects() {
       <style>
         {`
           .containerForProjects {
-            max-width: 100%;
+            
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             justify-content: center;
             align-items: center;
             gap: 6px;
             margin-top: 8px;
+            align-items: flex-start;
           }
 
+/* Media query to switch to a row layout after 972px */
+@media (max-width: 972px) {
+  .containerForProjects {
+    flex-direction: row;  /* This keeps the items in a row at 972px and below */
+    flex-wrap: wrap; /* Enable wrapping for items */
+  }
+}
+
+
           /* Media query to switch to a row layout after 600px */
-          @media (min-width: 600px) {
+          @media (max-width: 600px) {
             .containerForProjects {
-              flex-direction: row;
-              flex-wrap: wrap;
+              flex-direction: column;
+              justifyContent: "center", 
+              alignItms: "flex-start";
               justify-content: center;
+           
+           
+              max-height: 100%;                                                                                                                       
+              
+
             }
 
-            .card {
-              margin: 10px;
-              flex: 1 1 calc(33.333% - 20px); /* Makes cards take up 1/3 of the row */
-            }
           }
         `}
       </style>
@@ -37,7 +49,7 @@ export default function Projects() {
 
 
 
-      <div className="containerForProjects justify-center gap-6 mt-8" style={{ maxWidth: "100%", display: "flex", flexDirection: "column", justifyContent: "center", alignItms: "center" }}>
+      <div className="containerForProjects justify-center gap-6 mt-8" style={{ display: "flex", justifyContent: "center", alignItms: "center" }}>
         {/* <div className="flex justify-center gap-3 project-wrapper border border-white"> */}
 
         <div className="card bg-black text-white border">
